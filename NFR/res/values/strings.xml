@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">نادي الفتح</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+     <string name="spinner_title">اختر تصنيف</string>
+     <string name="locale_lang">en_US</string>
+      <string name="tab0">News</string>
+    <string name="tab1">News Categories</string>
+     <string name="tab2">’Matches</string>
+     <string name="tab3">Ranks</string>
+      <string name="error">[{"competition":"Pro League","league":"Regular Season","start":"2014-08-08","end":"2015-05-15",</string>
+     
+     
+</resources>

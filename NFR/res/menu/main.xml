@@ -1,0 +1,82 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    
+     >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    
+    
+    <item android:id="@+id/action_share"
+          android:icon="@drawable/ic_action_share"
+          android:title="share"
+          android:showAsAction="always"
+           
+
+          />
+    
+    <item android:id="@+id/action_overflow"
+          android:icon="@drawable/ic_action_overflow"
+          android:title="overflow"
+          android:showAsAction="always">
+          
+        <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item
+        android:id="@+id/menu_facebook"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="الفتح على الفيس بوك"
+        />
+<item
+        android:id="@+id/menu_tweeter"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="الفتح على  تويتر"
+        />
+<item
+        android:id="@+id/menu_about"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="حول التطبيق"
+        />
+<item
+        android:id="@+id/menu_notifications"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="تفعيل الاشعارات"
+        />
+</menu>
+        
+          </item>
+          
+     <item android:id="@+id/action_settings"
+          android:icon="@drawable/ic_action_settings"
+          android:title="share"
+          android:showAsAction="never"
+                     >
+        
+         <menu xmlns:android="http://schemas.android.com/apk/res/android" >
+             
+          <item
+        android:id="@+id/menu_arabic"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="عربي"
+        
+        />   
+        
+          <item
+        android:id="@+id/menu_English"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="English"
+        />   
+             </menu>
+        </item>
+
+</menu>

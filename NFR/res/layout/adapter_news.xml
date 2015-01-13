@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+   
+    android:weightSum="100" >
+
+   
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="70"
+    android:layout_gravity="right"
+    android:gravity="right"
+    >
+        <TextView
+            android:id="@+id/tvNewsDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+           android:textStyle="bold"
+           android:textColor="#000000"
+           
+            android:text="date" />
+
+        <TextView
+            android:id="@+id/tvNewstitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+           android:textStyle="bold"
+           android:textColor="#000000"
+           android:ellipsize="end"
+           android:singleLine="true"
+               
+            android:text="title" />
+
+        <TextView
+            android:id="@+id/tvNewsdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:ellipsize="end"
+android:singleLine="true"
+            android:textStyle="bold"
+           android:textColor="#000000"
+            android:text="details" />
+    
+</LinearLayout>
+
+ <ImageView
+        android:id="@+id/ivNewsImage"
+        
+        android:layout_width="50dp"
+            android:layout_height="50dp"
+        android:src="@drawable/ic_launcher"
+        
+        android:paddingTop="10dp" 
+        
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        />
+ 
+</LinearLayout>

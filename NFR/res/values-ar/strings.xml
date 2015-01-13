@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tab0">الاخبار</string>
+    <string name="tab1">تصنيف الاخبار</string>
+     <string name="tab2">المباريات</string>
+     <string name="tab3">المراكز</string>
+    <string name="error">[{"competition":"Pro League","league":"Regular Season","start":"2014-08-08","end":"2015-05-15",</string>
+</resources>
